@@ -9,5 +9,7 @@ git clone https://github.com/ervandew/supertab
 git clone https://github.com/robbevan/vagrantfile.vim
 git clone https://github.com/sheerun/vim-polyglot
 git clone https://github.com/tpope/vim-sensible.git
+git clone https://github.com/flazz/vim-colorschemes.git 
+git clone https://github.com/felixhummel/setcolors.vim.git
 ```
 

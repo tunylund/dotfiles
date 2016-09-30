@@ -92,9 +92,7 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 unsetopt beep
-bindkey -v
-bindkey "^[f" forward-word
-bindkey "^[b" backward-word
+bindkey -e
 
 alias vim='/usr/local/Cellar/vim/7.4.1993/bin/vim'
 alias be='bundle exec'
