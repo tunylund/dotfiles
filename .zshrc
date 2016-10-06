@@ -8,7 +8,7 @@ export PATH=$PATH:/usr/local/sbin
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/tnylund/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -58,7 +58,7 @@ ZSH_THEME="gianu" #amuse dieter
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git catimg ruby history history-substring-search)
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 source $ZSH/oh-my-zsh.sh
 
@@ -94,7 +94,7 @@ fi
 unsetopt beep
 bindkey -e
 
-alias vim='/usr/local/Cellar/vim/7.4.1993/bin/vim'
+alias vim=`find /usr/local/Cellar -name vim -type f`
 alias be='bundle exec'
 alias -s log="less -MN"
 alias -s rb=vim
