@@ -19,5 +19,6 @@ git clone https://github.com/sheerun/vim-polyglot
 git clone https://github.com/tpope/vim-sensible.git
 git clone https://github.com/flazz/vim-colorschemes.git 
 git clone https://github.com/felixhummel/setcolors.vim.git
+git clone https://github.com/tpope/vim-surround.git
 ```
 
