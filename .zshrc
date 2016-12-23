@@ -93,6 +93,9 @@ fi
 
 unsetopt beep
 bindkey -e
+bindkey "^[^[[C" forward-word
+bindkey "^[^[[D" backward-word
+bindkey "^[w" backward-delete-word
 
 alias vim=`find /usr/local/Cellar -name vim -type f`
 alias be='bundle exec'
