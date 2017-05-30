@@ -13,7 +13,29 @@ export ZSH=~/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="gianu" #amuse dieter
+ZSH_THEME="spaceship" #gianu amuse dieter
+SPACESHIP_PROMPT_ORDER=(
+  time
+  user
+  host
+  dir
+  git
+  hg
+  node
+  ruby
+  xcode
+  swift
+  golang
+  php
+  rust
+  julia
+#  docker
+  venv
+  pyenv
+  line_sep
+  vi_mode
+  char
+)
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
