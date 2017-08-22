@@ -24,3 +24,6 @@ git clone https://github.com/tpope/vim-surround.git
 git clone https://github.com/ctrlpvim/ctrlp.vim.git
 ```
 
+### Iterm
+use `hardcore` color scheme
+
