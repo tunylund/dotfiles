@@ -113,6 +113,11 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# show fingerprint from a private key file
+function fingerprint() {
+  openssl pkcs8 -in $1 -inform PEM -outform DER -topk8 -nocrypt | openssl sha1 -c
+}
+
 unsetopt beep
 bindkey -e
 bindkey "^[^[[C" forward-word
