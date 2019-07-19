@@ -1,7 +1,7 @@
-###Homebrew
+### Homebrew
 https://brew.sh/
 
-###Setup zsh
+### Setup zsh
 ```
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
@@ -9,7 +9,7 @@ cp .zshrc ~/
 ```
 https://denysdovhan.com/spaceship-prompt/#installing
 
-###Setup vim
+### Setup vim
 
 ```
 cp .vimrc ~/
@@ -27,7 +27,7 @@ git clone https://github.com/tpope/vim-surround.git
 git clone https://github.com/ctrlpvim/ctrlp.vim.git
 ```
 
-###dev envs
+### dev envs
 ```
 brew install rbenv
 ```
