@@ -1,10 +1,13 @@
+###Homebrew
+https://brew.sh/
+
 ###Setup zsh
 ```
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-curl -o - https://raw.githubusercontent.com/denysdovhan/spaceship-zsh-theme/master/install.zsh | zsh
 cp .zshrc ~/
 ```
+https://denysdovhan.com/spaceship-prompt/#installing
 
 ###Setup vim
 
@@ -23,6 +26,13 @@ git clone https://github.com/felixhummel/setcolors.vim.git
 git clone https://github.com/tpope/vim-surround.git
 git clone https://github.com/ctrlpvim/ctrlp.vim.git
 ```
+
+###dev envs
+```
+brew install rbenv
+```
+https://github.com/nvm-sh/nvm
+
 
 ### Iterm
 use `hardcore` color scheme
